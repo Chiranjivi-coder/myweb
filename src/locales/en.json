@@ -68,24 +68,54 @@
             "close": "Close Journey",
             "timeline": [
                 {
-                    "year": "2018",
-                    "title": "The Awakening",
-                    "desc": "Recognized the rapid decline of pure indigenous cattle breeds and the fading traditional wisdom of rural Gopalaks."
+                    "year": "1980-84",
+                    "title": "Graduation & Early Career",
+                    "desc": "BVSc & AH graduation, Clinical orientation and training phase. Selected for merit-cum-Scholarship."
                 },
                 {
-                    "year": "2020",
-                    "title": "Foundation of Vetnmark",
-                    "desc": "Brought together veterinary experts and modern science to create sustainable, stress-free breeding and farm management protocols."
+                    "year": "1985-89",
+                    "title": "Post Graduation & Service",
+                    "desc": "Post graduation in Animal reproduction (merit and distinction class), Awarded merit-Scholarship. Attended First Asian congress on Animal Reproduction. Livestock development office Govt. service, Opted university service as Assist. Professor. Selected for Young scientist award travel fellowship."
                 },
                 {
-                    "year": "2022",
-                    "title": "Empowering Gaushalas",
-                    "desc": "Partnered with over 50 Gaushalas to transform them into self-sufficient, economically viable centers of excellence."
+                    "year": "1990-94",
+                    "title": "University Service & Recognition",
+                    "desc": "Permanent cadre in university service, Rank three all India level for ARS selection. Award for state Adult Literacy book for Neo-literates. Postgraduate teacher and research guide. Participated for research presentation at International Goat Conference and Asian Buffalo Congress."
                 },
                 {
-                    "year": "Today",
-                    "title": "A Nationwide Movement",
-                    "desc": "Impacting over 10,000 cows and empowering hundreds of breeders. Our journey continues to fuse ancient reverence with cutting-edge science."
+                    "year": "1995-99",
+                    "title": "Awards & International Training",
+                    "desc": "Principal investigator of ICAR ad hoc research scheme. Hat trick of awards - State Adult Literacy books. Rishabhshree award and Vasantrao Naik award. Promotion to Associate cadre, Two awards by ISSAR professional society. Selected for International training on dairy farming, Israel."
+                },
+                {
+                    "year": "2000-04",
+                    "title": "Honors & Publications",
+                    "desc": "Five times honored for technical activities. Published two books. Delivered seminars during ICAR summer and winter institutes. Principal investigator of sponsored Research schemes. All India radio appearance. Audio, video CDs, cassettes developed."
+                },
+                {
+                    "year": "2005-09",
+                    "title": "Best Veterinarian & Professor",
+                    "desc": "Best Veterinarian Award 2007 by senior veterinarian's forum. Vasantrao Naik award. Promotion and subsequently section to professor cadre. Published three books. Umpteen Clinical camps attended. Hundreds of farmers meet addressed."
+                },
+                {
+                    "year": "2010-14",
+                    "title": "Evaluator & Training Activities",
+                    "desc": "Vasantrao Naik award. Invitations for academic staff recruitment and promotion committees. Examiner, research evaluator of many ICAR and state institute. Conducted lectures and trainings for professional veterinarians. Participated breeding policy meet."
+                },
+                {
+                    "year": "2015-19",
+                    "title": "Administrative Roles & Accolades",
+                    "desc": "Vasantrao Naik award, Awarded ISSAR and NAVS fellowships. Dr Rajendra Prasad hindi technical book ICAR award, Krishiratna award, Krishi Mauli Award, Dr Ramchandra Parnekar memorial Dyan-Vidyan Award. Implementing officer of RKVY scheme. Resumed duties of Dean. Chairman, Board of studies."
+                },
+                {
+                    "year": "2020-24",
+                    "title": "University Head & Retirement",
+                    "desc": "University Head, Depart. Animal Reproduction, MAFSU. Best Veterinary Professor Award. Principal Investigator of RKVY scheme. Leadership fruitful to gain VCI inspection award ‘A’ grade. Retirement from university services. Appointment as Non official member State Goseva Ayog."
+                },
+                {
+                    "year": "2025-",
+                    "title": "Continued Participation",
+                    "desc": "Technical guidance and participation continued."
                 }
             ]
         }
@@ -278,12 +308,22 @@
             ]
         },
         "additional_info": {
-            "title": "Additional Information",
+            "title": "Credential Stock Details",
             "items": [
-                "Author of numerous research papers and publications.",
-                "Presented research papers at national and international conferences.",
-                "Actively involved in various professional organizations.",
-                "Expert Veterinary Extension activities."
+                "Life membership and registrations of professional forum: 27",
+                "State and national awards: 27",
+                "Honors and felicitations: 24",
+                "Conferences attended: Convenor-02, International-17, National-37, Regional-34",
+                "Research guide ship of PD scholars: 25",
+                "Research projects undertaken: Major-04, Sponsored-25, Departmental-41",
+                "Books published: Professional science-01, Edited-09, Neo-literate-13, Marathi books-13",
+                "Extension publications in monthly, newspaper and souvenirs: 1000",
+                "All India radio appearance: 78",
+                "Television and media appearance: 43",
+                "CD, cassettes published: 15",
+                "Trainings conducted: Professional-47, Farmers-24",
+                "Lectures delivered: Professional-164, Farmers-687, Paravet-57",
+                "Clinical camps attended: 164, Animal show attended for judging: 134"
             ]
         },
         "honours": {
