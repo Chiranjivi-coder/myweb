@@ -1,0 +1,424 @@
+{
+    "navbar": {
+        "home": "Home",
+        "services": "Services",
+        "gaushala": "Gaushala",
+        "about": "About Us",
+        "contact": "Contact",
+        "tagline": "Indigenous Breed Conservation"
+    },
+    "home": {
+        "badge": "Preserving Our Heritage",
+        "title_prefix": "Honoring the",
+        "title_highlight": "Sacred Tradition",
+        "subtitle": "Expert reproductive guidance and holistic healthcare for the future of Desi Cows. We bridge ancient wisdom with modern veterinary science to empower breeders.",
+        "book_btn": "Book Consultation",
+        "watch_btn": "Our Journey",
+        "stats": {
+            "breeders": "Satisfied Breeders",
+            "cows": "Cows Treated",
+            "gaushalas": "Gaushalas Managed",
+            "experience": "Years of Excellence"
+        },
+        "audience": {
+            "title": "Who We Serve",
+            "heading": "Dedicated Solutions For",
+            "desc": "Tailored veterinary and management services ensuring the health and prosperity of every stakeholder in the dairy ecosystem.",
+            "prof": "Veterinary Professionals",
+            "prof_desc": "Advanced reproductive technologies, training, and technical assistance.",
+            "breeder": "Cattle Breeders",
+            "breeder_desc": "Scientific guidance on genetics, pedigree analysis, and breed improvement.",
+            "union": "Milk Unions",
+            "union_desc": "Strategic consulting to enhance milk production quality and volume.",
+            "dairy": "Dairy Farmers",
+            "dairy_desc": "Complete farm management solutions for sustainable profitability.",
+            "learn_more": "Learn More"
+        },
+        "vision": {
+            "title": "Our Vision",
+            "desc": "Dedicated to animal reproduction through stress-free improved management, nutritional therapies and on field applications of modern technologies and innovations."
+        },
+        "mission": {
+            "title": "Our Commitment",
+            "heading": "Empowering Rural",
+            "heading_highlight": "Gopalaks",
+            "desc": "We stand shoulder-to-shoulder with the custodians of our indigenous heritage. By bringing world-class veterinary science directly to the village level, we transform traditional cattle rearing into a thriving, scientific, and sustainable livelihood. Every cow saved, every lineage preserved, is a step towards rural prosperity.",
+            "list": [
+                "Stress-free farm management protocols",
+                "Advanced nutritional and therapeutic planning",
+                "Implementation of modern reproductive technologies"
+            ],
+            "btn": "Read More About Us"
+        },
+        "gaushala_block": {
+            "pre_title": "Gaushala Management",
+            "title": "Indian Desi Gaushala",
+            "title_highlight": "Consultancy",
+            "desc": "End-to-end consulting for establishing and managing sustainable Gaushalas dedicated to indigenous breeds. We help transform traditional shelters into economically viable and scientifically managed centers of excellence.",
+            "btn": "Enquire Now"
+        },
+        "cta": {
+            "title": "Ready to Transform Your Herd?",
+            "desc": "Join hundreds of successful breeders and dairymen who trust Vetnmark for their veterinary and management needs.",
+            "btn": "Get Started Today"
+        },
+        "journey": {
+            "title": "Our Journey",
+            "subtitle": "The path to preserving our sacred heritage",
+            "close": "Close Journey",
+            "timeline": [
+                {
+                    "year": "2018",
+                    "title": "The Awakening",
+                    "desc": "Recognized the rapid decline of pure indigenous cattle breeds and the fading traditional wisdom of rural Gopalaks."
+                },
+                {
+                    "year": "2020",
+                    "title": "Foundation of Vetnmark",
+                    "desc": "Brought together veterinary experts and modern science to create sustainable, stress-free breeding and farm management protocols."
+                },
+                {
+                    "year": "2022",
+                    "title": "Empowering Gaushalas",
+                    "desc": "Partnered with over 50 Gaushalas to transform them into self-sufficient, economically viable centers of excellence."
+                },
+                {
+                    "year": "Today",
+                    "title": "A Nationwide Movement",
+                    "desc": "Impacting over 10,000 cows and empowering hundreds of breeders. Our journey continues to fuse ancient reverence with cutting-edge science."
+                }
+            ]
+        }
+    },
+    "services": {
+        "hero": {
+            "badge": "Our Specializations",
+            "title": "Comprehensive Veterinary Care",
+            "subtitle": "Combining traditional wisdom with modern medical science for superior reproductive and clinical outcomes."
+        },
+        "categories": {
+            "on_call": {
+                "title": "On Call",
+                "desc": "Responsive expertise when and where you need it most, providing immediate resolution for complex medical scenarios.",
+                "items": [
+                    "Clinical Case Management",
+                    "Technical Consultancy",
+                    "Obstetrical Management",
+                    "Assisted Reproductive Technologies",
+                    "Diagnostic Skills"
+                ]
+            },
+            "preventive": {
+                "title": "Preventive Care",
+                "desc": "Proactive health strategies designed to immune-protect your herd and maximize their longevity and fecundity.",
+                "items": [
+                    "Health Care Guidance",
+                    "Optimised Smooth Reproduction",
+                    "Fertility & Fecundity Improvement",
+                    "Nutritional Management",
+                    "Pregnancy Care Tips"
+                ]
+            },
+            "clinical": {
+                "title": "Clinical Care",
+                "desc": "Advanced therapeutic interventions focused on fertility restoration and critical care treatments.",
+                "items": [
+                    "Infertility Treatments",
+                    "Obstetrical Case Resolution",
+                    "Post Partum Care",
+                    "Insemination Skills",
+                    "Hormonal Therapy"
+                ]
+            },
+            "managemental": {
+                "title": "Managemental Care",
+                "desc": "Holistic farm and herd management encompassing hygiene, comfort, and welfare to ensure a stress-free environment.",
+                "items": [
+                    "Hygiene and Sterilization",
+                    "Nursing and Welfare",
+                    "Comfort and Support",
+                    "Periodic Observations",
+                    "Medication Tips"
+                ]
+            }
+        },
+        "audiences": {
+            "title": "Tailored Solutions",
+            "subtitle": "Specialized consulting and management services designed for distinct sectors.",
+            "professionals": {
+                "title": "For Professionals",
+                "items": [
+                    "Technical Guidance",
+                    "Clinical Advisory",
+                    "Reference Contribution",
+                    "On Field Approaches",
+                    "Technology adoption"
+                ]
+            },
+            "breeders": {
+                "title": "For Breeders",
+                "items": [
+                    "Breeding Policy",
+                    "Selection of Straw / Embryo",
+                    "Breed conservation",
+                    "Breed improvement",
+                    "Elite germ Plasm selection"
+                ]
+            },
+            "milk_unions": {
+                "title": "For Milk Unions",
+                "items": [
+                    "Dairy Herd Management",
+                    "Profitable Diary output",
+                    "Minimizing reproductive problems",
+                    "Dairy health care",
+                    "Preventive Management of Diary Units"
+                ]
+            },
+            "social_forum": {
+                "title": "For Social Forum",
+                "items": [
+                    "Gaushala Management",
+                    "Gaushala Improvement",
+                    "Indian Cow Farm advisory",
+                    "Small ruminant Reproduction",
+                    "Farm animal Consultancy"
+                ]
+            },
+            "dairymen": {
+                "title": "For Dairymen",
+                "items": [
+                    "Reproductive management",
+                    "Improvement of pregnancy rates",
+                    "Productivity Boost",
+                    "Scientific Advisory",
+                    "Lectures / Judging / Seminars etc"
+                ]
+            }
+        }
+    },
+    "gaushala": {
+        "hero": {
+            "title": "Gaushala Management",
+            "subtitle": "Creating Self-Sustainable and Compassionate Sanctuaries"
+        },
+        "content": {
+            "heading": "Transforming Gaushalas into",
+            "heading_highlight": "Centers of Excellence",
+            "desc": "We provide comprehensive advisory services to establish and manage Gaushalas effectively. Our approach moves beyond charity, integrating modern management to ensure economic viability while upholding traditional values of Gau-Seva.",
+            "advisory": {
+                "title": "Strategic Advisory",
+                "desc": "Expert guidance on infrastructure, layout, and daily operations."
+            },
+            "resource": {
+                "title": "Sustainability Models",
+                "desc": "Generating revenue through Panchagavya products and eco-tourism."
+            },
+            "breed": {
+                "title": "Breed Conservation",
+                "desc": "Scientific breeding programs to revive and protect indigenous lineages."
+            },
+            "energy": {
+                "title": "Green Energy",
+                "desc": "Implementing biogas and solar solutions for energy self-reliance."
+            }
+        },
+        "cta": {
+            "title": "Start or Upgrade a Gaushala",
+            "desc": "Connect with our experts for a tailored roadmap. From land planning to revenue generation models, we guide you every step of the way.",
+            "btn": "Request Consultation"
+        }
+    },
+    "about": {
+        "hero": {
+            "badge": "Specialist Profile",
+            "title": "Dr. Niteen Markandeya",
+            "subtitle": "Veterinary Gynaecology & Obstetrics Specialist"
+        },
+        "profile": {
+            "bio1": "Dr. Niteen Markandeya is a highly qualified and experienced veterinarian with over 35 years of experience in the field of Veterinary Gynaecology & Obstetrics.",
+            "bio2": "He was the Associate Dean of Veterinary College Parbhani (MAFSU) for 4 years and has served the institute as Professor and Head, Department of Animal Reproduction, Gynaecology & Obstetrics for 15 years."
+        },
+        "expertise": {
+            "title": "Areas of Expertise",
+            "items": [
+                "Veterinary Gynaecology & Obstetrics",
+                "Farm Animal Reproduction",
+                "Gaushala Management",
+                "Native Breed Conservation"
+            ]
+        },
+        "education": {
+            "title": "Education & Fellowships",
+            "items": [
+                "MVSc",
+                "ARS",
+                "FISSAR (Fellow of the Indian Society for Study of Animal Reproduction)",
+                "FNAVS (Fellow of the National Academy of Veterinary Sciences, India)"
+            ]
+        },
+        "experience": {
+            "title": "Professional Experience",
+            "items": [
+                {
+                    "year": "35+ Years",
+                    "role": "Veterinary Medicine",
+                    "desc": "Extensive experience spanning over three decades in veterinary practice and animal care."
+                },
+                {
+                    "year": "15 Years",
+                    "role": "Professor & Head",
+                    "desc": "Department of Animal Reproduction, Gynaecology & Obstetrics, COVAS, Parbhani."
+                },
+                {
+                    "year": "4 Years",
+                    "role": "Associate Dean",
+                    "desc": "Veterinary College Parbhani (MAFSU)."
+                }
+            ]
+        },
+        "additional_info": {
+            "title": "Additional Information",
+            "items": [
+                "Author of numerous research papers and publications.",
+                "Presented research papers at national and international conferences.",
+                "Actively involved in various professional organizations.",
+                "Expert Veterinary Extension activities."
+            ]
+        },
+        "honours": {
+            "title": "Honours & Felicitations",
+            "desc": "Dr. Markandeya's dedication to veterinary medicine and social good has been richly recognized throughout his career. His numerous honors and felicitations paint a picture of a distinguished professional who has consistently gone above and beyond in his service to animals and communities.",
+            "academic": {
+                "title": "Academic & Professional Excellence",
+                "items": [
+                    "Chairman/co-chairman of scientific sessions and judging panels at national conferences.",
+                    "Commendations for academic contributions, research presentations, and successful student academic career management.",
+                    "Appreciation for excellence in extension work and contributions to animal husbandry activities.",
+                    "Appointed as a VCI inspector by the Veterinary Council of India to evaluate veterinary colleges nationally.",
+                    "Nominated as expert for academic selections, career advancements, and special lectures by National Institutes and State Universities."
+                ]
+            },
+            "social": {
+                "title": "Social Impact & Community Service",
+                "items": [
+                    "Awarded the Karmath Samaj Sevek award for promoting social equity and reforms through his profession.",
+                    "Felicitated by the Chief Minister of Maharashtra for his veterinary service in the Marathawada region.",
+                    "Recognized by the Maharashtra state adult literacy Institute and Vasantrao Naik Pratisthan for contributions to education and animal husbandry.",
+                    "Delivered a foundation-sponsored oration lecture on achieving success in the veterinary field."
+                ]
+            },
+            "leadership": {
+                "title": "Leadership & Expertise",
+                "items": [
+                    "Invited to judge farm animal clinical case management competitions at veterinary universities.",
+                    "Led multiple online training programs on reproductive sound management topics, earning leadership certificates from pharmaceutical companies.",
+                    "Acted as a guest speaker for continuing education programs."
+                ]
+            },
+            "corona": {
+                "title": "Dedication During Challenging Times",
+                "desc": "Appreciated as a Veterinary CORONA Warrior by Alembic for his service to animal health during the pandemic. Dr. Markandeya’s impressive array of honors reflects his unwavering commitment to veterinary excellence, social responsibility, and leadership."
+            }
+        },
+        "awards": {
+            "title": "Awards & Distinctions",
+            "desc": "Dr. Niteen Markandeya’s achievements extend far beyond academic excellence. He has been consistently recognized for his dedication to social good, research, and animal husbandry practices.",
+            "categories": [
+                {
+                    "name": "Academic Excellence",
+                    "items": [
+                        "Secured first position in PG studies at Marathawada Agricultural University."
+                    ]
+                },
+                {
+                    "name": "Research & Technical Expertise",
+                    "items": [
+                        "Nominated for the Young Scientist Award program by the Indian Science Congress for his research paper presentation.",
+                        "Won several awards for research paper presentations from the Indian Society for Study of Animal Reproduction (ISSAR).",
+                        "Received the Dr. Rajendra Prasad Hindi Technical Book ICAR Award for his book on 'Deshi Gowansh'."
+                    ]
+                },
+                {
+                    "name": "Social Veterinary Service",
+                    "items": [
+                        "Authored books on animal husbandry for neo-literates, earning three State awards from the Maharashtra state Adult Literacy Institute.",
+                        "Received numerous awards for his contributions to animal husbandry and dairy activities, including the Vasantrao Naik Award and the Rishabhshree Award.",
+                        "Recognized for his work on conserving native breeds of animals and promoting rural development."
+                    ]
+                },
+                {
+                    "name": "Literary Accolades",
+                    "items": [
+                        "Won awards for his informative articles and scripts published in various agricultural magazines.",
+                        "Received the Late R. N. Sabnis Literary Award for his book on rural development."
+                    ]
+                },
+                {
+                    "name": "Recognition by Professional Forum",
+                    "items": [
+                        "Bestowed with the Best Veterinarian Award by the senior veterinarian’s forum, Pune and Aurangabad.",
+                        "Honored with the Krishiratna Award for his animal husbandry extension activities."
+                    ]
+                }
+            ]
+        }
+    },
+    "contact": {
+        "hero": {
+            "badge": "Get in Touch",
+            "title": "We're Here to Help",
+            "subtitle": "Reach out for expert veterinary advice, appointments, or consultation."
+        },
+        "info": {
+            "title": "Contact Information",
+            "phone": "Phone",
+            "phone_sub": "Available 24/7 for emergencies",
+            "email": "Email",
+            "address": "Headquarters",
+            "address_val": "At Post - XYZ, Taluka- ABC,<br />District- PQR, Maharashtra, India"
+        },
+        "form": {
+            "title": "Send a Message",
+            "subtitle": "Fill out the form below and we will get back to you within 24 hours.",
+            "name": "Full Name",
+            "email": "Email Address",
+            "message": "Your Message",
+            "btn": "Submit Inquiry"
+        }
+    },
+    "engagement": {
+        "whatsapp": "Chat on WhatsApp",
+        "modal": {
+            "title": "Get Expert Advice",
+            "subtitle": "Fill the form below and our team will contact you shortly.",
+            "name": "Your Name",
+            "phone": "Phone Number",
+            "interest": "I am interested in...",
+            "interests": {
+                "general": "General Inquiry",
+                "breeding": "Breeding Consultation",
+                "gaushala": "Gaushala Management",
+                "training": "Training Programs"
+            },
+            "message": "Message (Optional)",
+            "submit": "Request Callback",
+            "close": "Close"
+        }
+    },
+    "gallery": {
+        "title": "Event Gallery",
+        "subtitle": "Glimpses of our recent activities, camps, and community events.",
+        "filters": {
+            "all": "All Events",
+            "medical": "Medical Camps",
+            "community": "Community",
+            "awareness": "Awareness"
+        },
+        "lightbox": {
+            "close": "Close",
+            "next": "Next",
+            "prev": "Previous"
+        }
+    }
+}

@@ -1,0 +1,44 @@
+
+C:\Users\Chiranjivi\.gemini\antigravity\scratch\vetnmark\src\components\EnquiryModal.jsx
+  22:13  error    Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+  20 |     useEffect(() => {
+  21 |         if (isModalOpen) {
+> 22 |             setFormData(prev => ({ ...prev, interest: selectedInterest }));
+     |             ^^^^^^^^^^^ Avoid calling setState() directly within an effect
+  23 |         }
+  24 |     }, [isModalOpen, selectedInterest]);
+  25 |  react-hooks/set-state-in-effect
+  38:8   warning  React Hook useEffect has a missing dependency: 'isModalOpen'. Either include it or remove the dependency array                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  react-hooks/exhaustive-deps
+
+C:\Users\Chiranjivi\.gemini\antigravity\scratch\vetnmark\src\components\Layout\Navbar.jsx
+  12:11  error  'location' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]|motion/u  no-unused-vars
+
+C:\Users\Chiranjivi\.gemini\antigravity\scratch\vetnmark\src\context\ModalContext.jsx
+  45:14  error  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+C:\Users\Chiranjivi\.gemini\antigravity\scratch\vetnmark\src\pages\EventGallery.jsx
+  84:9  error  Error: This value cannot be modified
+
+Modifying a variable defined outside a component or hook is not allowed. Consider using an effect.
+
+  82 |     const openLightbox = (image) => {
+  83 |         setSelectedImage(image);
+> 84 |         document.body.style.overflow = 'hidden';
+     |         ^^^^^^^^^^^^^^^^^^^ value cannot be modified
+  85 |     };
+  86 |
+  87 |     const closeLightbox = () => {  react-hooks/immutability
+
+C:\Users\Chiranjivi\.gemini\antigravity\scratch\vetnmark\src\pages\Home.jsx
+  9:1  warning  Unused eslint-disable directive (no problems were reported from 'no-unused-vars')
+
+✖ 6 problems (4 errors, 2 warnings)
+  0 errors and 1 warning potentially fixable with the `--fix` option.
+
