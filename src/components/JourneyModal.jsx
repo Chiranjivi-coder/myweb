@@ -30,7 +30,7 @@ const JourneyModal = ({ isOpen, onClose }) => {
     return (
         <AnimatePresence>
             {isOpen && (
-                <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6 mb:p-12 overflow-hidden">
+                <div className="fixed inset-0 z-[100] flex items-center justify-center p-2 sm:p-6 md:p-12 overflow-hidden">
                     {/* Backdrop */}
                     <motion.div
                         initial={{ opacity: 0 }}
@@ -46,7 +46,7 @@ const JourneyModal = ({ isOpen, onClose }) => {
                         animate={{ opacity: 1, scale: 1, y: 0 }}
                         exit={{ opacity: 0, scale: 0.95, y: 20 }}
                         transition={{ duration: 0.4, type: 'spring' }}
-                        className="relative w-full max-w-5xl max-h-[90vh] bg-stone-900 border border-stone-800 rounded-3xl shadow-2xl overflow-hidden flex flex-col"
+                        className="relative w-full max-w-5xl max-h-[95vh] md:max-h-[90vh] bg-stone-900 border border-stone-800 rounded-3xl shadow-2xl overflow-hidden flex flex-col"
                     >
                         {/* Header Gradient */}
                         <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-green-900/30 to-transparent pointer-events-none"></div>
@@ -54,19 +54,19 @@ const JourneyModal = ({ isOpen, onClose }) => {
                         {/* Top Bar / Close Button */}
                         <div className="relative z-10 flex justify-between items-center p-6 border-b border-stone-800/50">
                             <div>
-                                <h2 className="text-3xl font-serif text-white">{t('home.journey.title')}</h2>
-                                <p className="text-stone-400 mt-1">{t('home.journey.subtitle')}</p>
+                                <h2 className="text-xl sm:text-2xl md:text-3xl font-serif text-white">{t('home.journey.title')}</h2>
+                                <p className="text-stone-400 mt-0.5 text-xs sm:text-sm md:text-base">{t('home.journey.subtitle')}</p>
                             </div>
                             <button
                                 onClick={onClose}
-                                className="p-3 rounded-full bg-stone-800/50 text-stone-400 hover:text-white hover:bg-stone-700 hover:rotate-90 transition-all duration-300"
+                                className="p-2 sm:p-3 rounded-full bg-stone-800/50 text-stone-400 hover:text-white hover:bg-stone-700 hover:rotate-90 transition-all duration-300"
                             >
-                                <X className="w-6 h-6" />
+                                <X className="w-5 h-5 sm:w-6 sm:h-6" />
                             </button>
                         </div>
 
                         {/* Timeline Content */}
-                        <div className="flex-1 overflow-y-auto p-6 md:p-12 relative scrollbar-hide">
+                        <div className="flex-1 overflow-y-auto p-4 sm:p-8 md:p-12 relative scrollbar-hide">
                             <motion.div
                                 variants={containerVariants}
                                 initial="hidden"
@@ -74,7 +74,7 @@ const JourneyModal = ({ isOpen, onClose }) => {
                                 className="relative max-w-3xl mx-auto"
                             >
                                 {/* Vertical Line */}
-                                <div className="absolute left-8 md:left-1/2 top-4 bottom-4 w-px bg-gradient-to-b from-green-500/50 via-emerald-500/50 to-transparent -translate-x-1/2"></div>
+                                <div className="absolute left-6 md:left-1/2 top-4 bottom-4 w-px bg-gradient-to-b from-green-500/50 via-emerald-500/50 to-transparent -translate-x-1/2"></div>
 
                                 {timelineData.map((item, index) => {
                                     const Icon = icons[index % icons.length];
@@ -90,20 +90,20 @@ const JourneyModal = ({ isOpen, onClose }) => {
                                             <div className="hidden md:block w-5/12"></div>
 
                                             {/* Center Icon */}
-                                            <div className="absolute left-8 md:left-1/2 w-12 h-12 rounded-full bg-stone-900 border-4 border-stone-800 flex items-center justify-center -translate-x-1/2 shadow-xl z-10 group hover:border-green-500 transition-colors duration-300">
-                                                <Icon className="w-5 h-5 text-green-500 group-hover:scale-110 transition-transform" />
+                                            <div className="absolute left-6 md:left-1/2 w-10 h-10 md:w-12 md:h-12 rounded-full bg-stone-900 border-2 md:border-4 border-stone-800 flex items-center justify-center -translate-x-1/2 shadow-xl z-10 group hover:border-green-500 transition-colors duration-300">
+                                                <Icon className="w-4 h-4 md:w-5 md:h-5 text-green-500 group-hover:scale-110 transition-transform" />
                                             </div>
 
-                                            {/* Content Box */}
-                                            <div className="w-[calc(100%-5rem)] pl-16 md:pl-0 md:w-5/12 group">
-                                                <div className="bg-stone-800/30 hover:bg-stone-800/80 border border-stone-700/50 hover:border-green-500/30 p-6 md:p-8 rounded-2xl backdrop-blur-sm transition-all duration-500 transform group-hover:-translate-y-2">
-                                                    <span className="inline-block px-4 py-1.5 rounded-full bg-green-500/10 text-green-400 font-bold tracking-wider text-sm mb-4 border border-green-500/20">
+                                             {/* Content Box */}
+                                            <div className="w-[calc(100%-3.5rem)] ml-auto md:ml-0 md:w-5/12 group">
+                                                <div className="bg-stone-800/30 hover:bg-stone-800/80 border border-stone-700/50 hover:border-green-500/30 p-5 md:p-8 rounded-2xl backdrop-blur-sm transition-all duration-500 transform group-hover:-translate-y-2">
+                                                    <span className="inline-block px-3 py-1 rounded-full bg-green-500/10 text-green-400 font-bold tracking-wider text-[10px] sm:text-xs mb-3 border border-green-500/20">
                                                         {item.year}
                                                     </span>
-                                                    <h3 className="text-2xl font-serif font-bold text-white mb-3">
+                                                    <h3 className="text-lg sm:text-xl md:text-2xl font-serif font-bold text-white mb-2 md:mb-3">
                                                         {item.title}
                                                     </h3>
-                                                    <p className="text-stone-300 leading-relaxed font-light">
+                                                    <p className="text-stone-300 text-sm md:text-base leading-relaxed font-light">
                                                         {item.desc}
                                                     </p>
                                                 </div>
