@@ -40,11 +40,11 @@ const Home = () => {
                         src="/desi-cow-header.png"
                         alt="Majestic Desi Cow at Sunset"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-stone-900/90"></div>
+                    <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-stone-900/90"></div>
                 </motion.div>
 
                 {/* Hero Content */}
-                <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-20 pb-24 md:pt-0 md:pb-0">
                     <motion.div
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -59,7 +59,7 @@ const Home = () => {
                         initial={{ opacity: 0, y: 40 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.4 }}
-                        className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold text-white leading-tight mb-8"
+                        className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-serif font-bold text-white leading-tight mb-6 md:mb-8"
                     >
                         {t('home.title_prefix')} <br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-emerald-500">
@@ -71,7 +71,7 @@ const Home = () => {
                         initial={{ opacity: 0, y: 40 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.6 }}
-                        className="text-xl md:text-2xl text-stone-200 mb-12 max-w-3xl mx-auto leading-relaxed font-light"
+                        className="text-lg md:text-2xl text-stone-200 mb-8 md:mb-12 max-w-3xl mx-auto leading-relaxed font-light"
                     >
                         {t('home.subtitle')}
                     </motion.p>
@@ -80,7 +80,7 @@ const Home = () => {
                         initial={{ opacity: 0, y: 40 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.8 }}
-                        className="flex flex-col sm:flex-row gap-6 justify-center"
+                        className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center"
                     >
                         <button
                             onClick={() => openModal('general')}
@@ -93,7 +93,7 @@ const Home = () => {
                         </button>
                         <button
                             onClick={() => setIsJourneyModalOpen(true)}
-                            className="group px-8 py-4 bg-white/10 backdrop-blur-md border border-white/30 text-white text-lg font-semibold rounded-full hover:bg-white/20 transition-all duration-300 flex items-center justify-center cursor-pointer"
+                            className="group px-8 py-3 md:py-4 bg-white/10 backdrop-blur-md border border-white/30 text-white text-base md:text-lg font-semibold rounded-full hover:bg-white/20 transition-all duration-300 flex items-center justify-center cursor-pointer"
                         >
                             <Play className="w-5 h-5 mr-3 fill-current" />
                             {t('home.watch_btn')}
