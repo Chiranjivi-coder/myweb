@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 import { useModal } from '../context/ModalContext';
 import SEO from '../components/SEO';
 
+import TransformingImg from '../assets/gaushala-transforming.jpg';
+
 const Gaushala = () => {
     const { t } = useTranslation();
     const { openModal } = useModal();
@@ -98,7 +100,7 @@ const Gaushala = () => {
                         <div className="absolute -inset-4 bg-gradient-to-tr from-green-100 to-amber-100 rounded-[2rem] transform rotate-3"></div>
                         <img
                             className="relative rounded-2xl shadow-2xl w-full object-cover"
-                            src="https://images.unsplash.com/photo-1596733430292-b7f5060cdbfd?q=80&w=2070&auto=format&fit=crop"
+                            src={TransformingImg}
                             alt="Cows feeding peacefully"
                         />
                     </motion.div>
