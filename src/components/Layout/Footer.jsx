@@ -1,5 +1,5 @@
 
-import { Wheat, Mail, Phone, MapPin, Facebook, Instagram, Twitter } from 'lucide-react';
+import { Wheat, Mail, Phone, MapPin, Facebook, Instagram, Twitter, ArrowUp } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.jpg';
 
@@ -73,13 +73,21 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="border-t border-stone-800 mt-16 pt-8 pb-4 flex flex-col items-center justify-center text-stone-500 text-sm space-y-2">
+                <div className="border-t border-stone-800 mt-16 pt-8 pb-4 flex flex-col items-center justify-center text-stone-500 text-sm space-y-2 relative">
                     <p>
                         &copy; 2026 Vetnmark. All rights reserved. | <span className="hover:text-gray-300 cursor-pointer transition-colors">Privacy Policy</span>
                     </p>
                     <p className="text-stone-600 font-medium">
                         Designed and Developed by <a href="#" className="text-green-600/80 hover:text-green-500 transition-colors">Spidi Technology</a>
                     </p>
+                    <button 
+                        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                        className="absolute right-4 md:right-8 -top-6 bg-stone-800 hover:bg-green-600 text-white p-3 rounded-full transition-all duration-300 shadow-lg flex items-center justify-center group z-10"
+                        aria-label="Scroll to top"
+                        title="Scroll to top"
+                    >
+                        <ArrowUp className="w-5 h-5 group-hover:-translate-y-1 transition-transform" />
+                    </button>
                 </div>
             </div>
         </footer>
