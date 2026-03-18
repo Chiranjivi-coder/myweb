@@ -78,7 +78,7 @@ const About = () => {
                         >
                             <div className="absolute inset-0 bg-green-500 rounded-full blur-3xl opacity-20 animate-pulse"></div>
                             {/* Placeholder for Dr. Niteen Markandeya's actual photo */}
-                            <div className="relative w-full max-w-sm md:max-w-md mx-auto rounded-3xl overflow-hidden border-4 border-white/10 shadow-2xl group">
+                            <div className="relative w-full max-w-xs md:max-w-sm mx-auto rounded-3xl overflow-hidden border-4 border-white/10 shadow-2xl group">
                                 <img
                                     src="expert.jpg"
                                     alt="Dr. Niteen Markandeya"

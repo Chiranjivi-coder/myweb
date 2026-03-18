@@ -49,7 +49,7 @@ const Home = () => {
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.2 }}
-                        className="inline-flex items-center px-6 py-2 rounded-full border border-white/30 bg-white/10 backdrop-blur-md text-white font-medium text-sm mb-8"
+                        className="inline-flex items-center px-6 py-2 rounded-full border border-white/30 bg-white/10 backdrop-blur-md text-white font-medium text-sm mb-2"
                     >
                         <Leaf className="w-4 h-4 mr-2 text-green-400" />
                         <span className="tracking-wide uppercase">{t('home.badge')}</span>

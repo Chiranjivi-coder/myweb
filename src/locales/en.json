@@ -5,6 +5,7 @@
         "gaushala": "Gaushala",
         "about": "About Us",
         "contact": "Contact",
+        "publications": "Publications",
         "tagline": "Indigenous Breed Conservation"
     },
     "home": {
@@ -230,7 +231,7 @@
     "gaushala": {
         "hero": {
             "title": "Gaushala Management",
-            "subtitle": "Creating Self-Sustainable and Compassionate Sanctuaries"
+            "subtitle": "Creating ideal, Self-Sustainable and Compassionate cow Sanctuaries"
         },
         "content": {
             "heading": "Transforming Gaushalas into",
@@ -459,6 +460,14 @@
             "close": "Close",
             "next": "Next",
             "prev": "Previous"
+        }
+    },
+    "publications": {
+        "hero": {
+            "badge": "Knowledge Sharing",
+            "title": "Our Publications",
+            "subtitle": "Explore our research, books, and articles on indigenous breed conservation and veterinary science.",
+            "publish_now": "Publish Now"
         }
     }
 }
