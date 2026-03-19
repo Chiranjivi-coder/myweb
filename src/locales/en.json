@@ -415,9 +415,7 @@
             "title": "Contact Information",
             "phone": "Phone",
             "phone_sub": "Available 24/7 for emergencies",
-            "email": "Email",
-            "address": "Headquarters",
-            "address_val": "At Post - XYZ, Taluka- ABC,<br />District- PQR, Maharashtra, India"
+            "email": "Email"
         },
         "form": {
             "title": "Send a Message",

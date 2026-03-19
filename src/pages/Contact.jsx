@@ -105,15 +105,7 @@ const Contact = () => {
                                     <p className="text-stone-500 text-lg">swanitee50@gmail.com</p>
                                 </div>
                             </div>
-                            <div className="flex items-start">
-                                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-green-600 flex-shrink-0">
-                                    <MapPin className="h-6 w-6" />
-                                </div>
-                                <div className="ml-6">
-                                    <p className="text-lg font-bold text-stone-900 mb-1">{t('contact.info.address')}</p>
-                                    <p className="text-stone-500 text-lg leading-relaxed" dangerouslySetInnerHTML={{ __html: t('contact.info.address_val') }}></p>
-                                </div>
-                            </div>
+
                         </div>
                     </motion.div>
 

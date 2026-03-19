@@ -57,10 +57,7 @@ const Footer = () => {
                     <div>
                         <h3 className="text-white text-lg font-semibold mb-6 border-b-2 border-green-600 inline-block pb-1">Get in Touch</h3>
                         <ul className="space-y-4">
-                            <li className="flex items-start gap-3">
-                                <MapPin className="h-5 w-5 text-green-500 mt-1 flex-shrink-0" />
-                                <span>At Post - XYZ, Tal- ABC, Dist- PQR, Maharashtra, India</span>
-                            </li>
+
                             <li className="flex items-center gap-3">
                                 <Phone className="h-5 w-5 text-green-500 flex-shrink-0" />
                                 <span>+91 82376 82141</span>
